@@ -73,43 +73,10 @@ portfolio/
 Edite os seguintes arquivos para personalizar suas informações:
 
 - `components/Hero.tsx` - Título e descrição principal
-- `components/About.tsx` - Informações sobre você
-- `components/Skills.tsx` - Suas habilidades técnicas
-- `components/Projects.tsx` - Seus projetos
-- `components/Contact.tsx` - Informações de contato
-
-### Cores e Tema
-As cores podem ser personalizadas no arquivo `tailwind.config.js`:
-
-```javascript
-colors: {
-  primary: {
-    50: '#f0f9ff',
-    100: '#e0f2fe',
-    // ... outras variações
-    900: '#0c4a6e',
-  }
-}
-```
-
-### Projetos
-Adicione seus projetos editando o array `projects` no arquivo `components/Projects.tsx`:
-
-```typescript
-const projects = [
-  {
-    id: 1,
-    title: 'Nome do Projeto',
-    description: 'Descrição do projeto...',
-    image: '🛒', // Emoji ou URL da imagem
-    technologies: ['React', 'Next.js', 'TypeScript'],
-    liveUrl: 'https://projeto.com',
-    repoUrl: 'https://github.com/usuario/projeto',
-    linkedinUrl: 'https://linkedin.com/posts/...',
-    featured: true // Projetos em destaque
-  }
-]
-```
+- `components/About.tsx` - Informações
+- `components/Skills.tsx` - habilidades técnicas
+- `components/Projects.tsx` - projetos
+- `components/Contact.tsx` -  contato
 
 ## 🎨 Seções do Portfólio
 
@@ -168,9 +135,6 @@ O portfólio é totalmente responsivo e se adapta a:
 - `npm run start` - Servidor de produção
 - `npm run lint` - Verificação de código
 
-## 📄 Licença
-
-Este projeto está sob a licença MIT. Sinta-se livre para usar e modificar conforme necessário.
 
 ## 🤝 Contribuição
 
